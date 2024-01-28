@@ -17,7 +17,7 @@ authtoken=$1
 
 
 # Generate a random number between 150 and 190
-random_number=$((RANDOM % 41 + 150))
+random_number=$((RANDOM % 41 + 180))
 # Create a for loop that iterates from 0 to the random number
 # For loop
 for ((i=0;i<=random_number;i++)); do
