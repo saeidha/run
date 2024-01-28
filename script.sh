@@ -45,8 +45,7 @@ for ((i=0;i<=random_number;i++)); do
   -H 'User-Agent: Unfettered%20Awakening/20 CFNetwork/1490.0.4 Darwin/23.2.0' \
   -H 'Connection: keep-alive' \
   -H 'Content-Type: application/json' \
-  --data-raw '{"CustomTags":null,"Statistics":[{"StatisticName":"Survivors","Value":'$amount4',"Version":null}],"AuthenticationContext":null}' \
-  --proxy http://localhost:9090
+  --data-raw '{"CustomTags":null,"Statistics":[{"StatisticName":"Survivors","Value":'$amount4',"Version":null}],"AuthenticationContext":null}'
 
   curl 'https://e0250.playfabapi.com/Client/UpdatePlayerStatistics?sdk=UnitySDK-2.173.230804' \
   -X POST \
@@ -60,8 +59,7 @@ for ((i=0;i<=random_number;i++)); do
   -H 'User-Agent: Unfettered%20Awakening/20 CFNetwork/1490.0.4 Darwin/23.2.0' \
   -H 'Connection: keep-alive' \
   -H 'Content-Type: application/json' \
-  --data-raw '{"CustomTags":null,"Statistics":[{"StatisticName":"Survivors","Value":'$amount9',"Version":null}],"AuthenticationContext":null}' \
-  --proxy http://localhost:9090
+  --data-raw '{"CustomTags":null,"Statistics":[{"StatisticName":"Survivors","Value":'$amount9',"Version":null}],"AuthenticationContext":null}'
 
   curl 'https://e0250.playfabapi.com/Client/UpdatePlayerStatistics?sdk=UnitySDK-2.173.230804' \
   -X POST \
@@ -75,8 +73,7 @@ for ((i=0;i<=random_number;i++)); do
   -H 'User-Agent: Unfettered%20Awakening/20 CFNetwork/1490.0.4 Darwin/23.2.0' \
   -H 'Connection: keep-alive' \
   -H 'Content-Type: application/json' \
-  --data-raw '{"CustomTags":null,"Statistics":[{"StatisticName":"Survivors","Value":'$amount10',"Version":null}],"AuthenticationContext":null}' \
-  --proxy http://localhost:9090
+  --data-raw '{"CustomTags":null,"Statistics":[{"StatisticName":"Survivors","Value":'$amount10',"Version":null}],"AuthenticationContext":null}'
 
 done
 
@@ -97,8 +94,7 @@ curl 'https://e0250.playfabapi.com/Client/UpdatePlayerStatistics?sdk=UnitySDK-2.
   -H 'User-Agent: Unfettered%20Awakening/20 CFNetwork/1490.0.4 Darwin/23.2.0' \
   -H 'Connection: keep-alive' \
   -H 'Content-Type: application/json' \
-  --data-raw '{"CustomTags":null,"Statistics":[{"StatisticName":"Survivors","Value":'$lastAmount',"Version":null}],"AuthenticationContext":null}' \
-  --proxy http://localhost:9090
+  --data-raw '{"CustomTags":null,"Statistics":[{"StatisticName":"Survivors","Value":'$lastAmount',"Version":null}],"AuthenticationContext":null}'
 
 
 
